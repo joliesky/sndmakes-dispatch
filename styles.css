@@ -1,0 +1,215 @@
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+}
+
+.header img {
+    width: 60%;
+    margin: 1em 0 0 0;
+}
+
+.logo {
+  font-size: 4em;
+  font-weight: 400;
+  font-family: 'Abril Fatface';
+  line-height: 0em;
+}
+
+.login {
+    position: absolute;
+    top: .5em;
+    font-size: .75em;
+    color: #666;
+    right: 0;
+    text-transform: uppercase;
+}
+
+.logout {
+  padding-left: 1em;
+  text-decoration: underline;
+}
+
+.content {
+  overflow: auto;
+	width: 100%
+}
+
+.story {
+  font-family: 'Times new roman', serif;
+  line-height: 1.4em;
+  font-size: 1.05em;
+}
+
+.content img {
+  width: 100%;
+  margin: .5em 0;
+}
+
+.article {
+  width: 66%;
+  float: left;
+}
+
+.article h1 {
+  line-height: 1em;
+  font-size: 2em;
+  margin: .5em 0;
+}
+
+.rail {
+  width: 32%;
+  float: right;
+}
+
+.header nav ul {
+  display: block;
+  list-style: none;
+  padding: 0;
+  height: 3em;
+  width: 100%;
+  clear: both;
+}
+
+.header nav ul li {
+  float: left;
+  width: 20%;
+  padding: 1em 0;
+  text-transform: uppercase;
+  font-size: .9em;
+  border-bottom: 2px solid steelblue;
+}
+
+.meta {
+  font-size: .9em;
+  margin: 1em 0;
+}
+
+.meta .byline {
+  color: teal;
+  padding-right: .5em;
+  border-right: 1px solid;
+}
+
+.dispatch-tag {
+  background-color: rgba(176,196,222,.5);
+  font-style: italic;
+  padding: .75em;
+  margin: .5em 0;
+
+}
+
+.footer {
+  width: 100%;
+  height: 2em;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: .5em;
+}
+
+.disclaimer {
+  font-style: italic;
+  font-size: .9em;
+}
+
+.dispatch {
+  background-color: rgba(176,196,222,.5);
+  padding: 1em;
+  margin: 1em 0;
+  font-weight: 300;
+  position: relative;
+}
+
+.dispatch .logout {
+    position: absolute;
+    top: 1.6em;
+    right: 1em;
+    font-size: .8em;
+}
+
+.dispatch .uline {
+  text-decoration: underline;
+}
+
+.dispatch h3 {
+  padding-bottom: .25em;
+  border-bottom: 1px solid steelblue;
+  margin: 0;
+}
+.textarea {
+  display: block;
+  font-size: .9em;
+}
+button.response {
+    background: none;
+    border: 0;
+    font-size: 1em;
+    padding: 0 0 0 .5em;
+}
+
+button.response.text {
+    margin: .75em 0 0 0;
+    padding: .5em;
+    background: steelblue;
+    color: white;
+    letter-spacing: .05em;
+}
+
+.flow-question {
+  display: none;
+  border-top: 1px solid steelblue;
+}
+
+
+.options {
+    margin: 1em 0;
+}
+
+.disable.textarea {
+  color: #ccc;
+}
+
+.fa {
+  color: steelblue;
+  font-size: 1.5em;
+}
+.fa-circle-thin {
+    display: block;
+}
+.fa-check-circle {
+  display: none;
+}
+.selected .fa-circle-thin {
+  display: none;
+}
+.selected .fa-check-circle {
+  display: block;
+}
+
+.publish {
+  margin: 1em auto;
+  border: 0;
+  font-size: 1em;
+  padding: .5em;
+  background: steelblue;
+  color: white;
+  letter-spacing: .05em;
+}
