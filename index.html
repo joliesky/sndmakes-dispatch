@@ -1,1 +1,157 @@
-My Page
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The City Daily</title>
+  <meta name="description" content="The City Daily">
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <section class="header">
+      <img src="logo.jpg" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>News</li>
+          <li>Business</li>
+          <li>Sports</li>
+          <li>Data</li>
+        </ul>
+      </nav>
+      <div class="login">Welcome, Bob Jones!<span class="logout">(Not Bob?)</span></div>
+    </section>
+    <div class="content">
+      <section class="article">
+        <h1>District Teachers Say 'No' To More Tests</h1>
+        <div class="meta">
+          By <span class="byline">Mary Smith</span>
+          <span class="data">November 11, 2015</span>
+        </div>
+        <img src="social.png" />
+        <div class="content">
+          <img src="main.jpg" />
+          <div class="dispatch-tag">Are you a high-school teacher? <a href="#dispatch">Go to the bottom of this story</a> to give your feedback to the reporter.</div>
+          <div class="story">
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor non metus quis consectetur. Ut commodo justo aliquet, dapibus magna quis, malesuada turpis. Nunc lobortis leo in velit imperdiet efficitur. Nulla vitae pulvinar velit. Nam pharetra accumsan dui non auctor. Praesent posuere facilisis porta. Ut luctus auctor odio. Duis pretium mi quam, a venenatis neque bibendum ut. Curabitur sed massa vitae sapien commodo volutpat non id lectus. In eget hendrerit ante. Phasellus imperdiet nunc nec ipsum ultricies dictum. Duis viverra placerat lectus a porta. Curabitur posuere at tortor nec condimentum. Vestibulum blandit interdum lacus eget molestie. Mauris quis erat feugiat, tincidunt est in, consequat turpis. Vivamus libero nisi, fringilla non porttitor quis, accumsan eget eros.
+            </p>
+            <p>
+            Donec in ante nisi. Curabitur enim arcu, vehicula quis risus id, vehicula faucibus nisi. Sed vel nisi sagittis, pulvinar nunc nec, efficitur ex. Etiam volutpat nibh in egestas pulvinar. Cras id rhoncus risus. Etiam vestibulum tempor mi ac consequat. Aenean a leo vel mi laoreet vestibulum. Cras sit amet cursus tortor. In non molestie leo, in aliquam mi. In non magna semper, ultricies mauris id, congue ex.
+            </p>
+            <p>
+            Aliquam in sem molestie tellus porta condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis ultricies nisl nisi, id elementum arcu sodales porta. Nullam placerat vehicula eros, eu sollicitudin orci facilisis et. Fusce tempus nunc sed aliquet iaculis. Phasellus quis varius leo, id efficitur mauris. Nulla in nisl ut magna lobortis scelerisque sed vitae purus.
+            </p>
+            <p>
+            Morbi vitae sapien viverra, laoreet dui vel, semper odio. Pellentesque faucibus nulla id nisi semper, at hendrerit arcu rutrum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum eget augue a dolor molestie rutrum at a justo. Morbi faucibus lectus in interdum rhoncus. In laoreet sed ipsum eget efficitur. Cras ac egestas ipsum. Maecenas quam orci, condimentum quis est in, porta dapibus justo.
+            </p>
+            <p>
+            Aenean egestas sagittis venenatis. Donec scelerisque, nisl in pellentesque mollis, eros metus laoreet libero, eget laoreet massa erat ac sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum dictum placerat est, nec hendrerit magna bibendum et. Etiam mattis orci sit amet tellus pellentesque elementum. Phasellus sollicitudin ligula felis, in commodo tellus elementum a. Vivamus id justo orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris mollis efficitur hendrerit.
+            </p>
+          </div>
+
+          <div class="dispatch" id="dispatch">
+            <h3>Hi Bob! Give Mary Your Feedback</h3>
+            <span class="logout">(Not Bob?)</span>
+            <article id="first" class="flow-question">
+              <header>
+                <p>Are You A High School Teacher?</p>
+              </header>
+              <section class="options">
+                <label class="option" data-link="yes">
+                  <button class="response"><i class="fa fa-circle-thin"></i><i class="fa fa-check-circle"></i></button>
+                  Yes
+                </label>
+                <label class="option" data-link="no">
+                  <button class="response"><i class="fa fa-circle-thin"></i><i class="fa fa-check-circle"></i></button>
+                  No
+                </label>
+              </section>
+            </article>
+            <article id="yes" class="flow-question">
+              <header>
+                <p>How does your experience of standardized tests compare to Ahmed’s?</p>
+                <p class="disclaimer">Your replies will only be seen by the journalist and will not be shared without your permission.</p>
+              </header>
+              <section class="options">
+                <textarea class="textarea" rows="6" cols="60"></textarea>
+                <label class="option" data-link="email">
+                  <button class="response text">Submit</button>
+                </label>
+              </section>
+            </article>
+            <article id="email" class="flow-question">
+              <header>
+                <p>Thank you so much for your feedback. Your message has been sent to Mary Smith.</p>
+                <p>Can we contact you in the future to help our education reporting?</p>
+              </header>
+              <section class="options">
+                <label class="option" data-link="thanks">
+                  <button class="response"><i class="fa fa-circle-thin"></i><i class="fa fa-check-circle"></i></button>
+                  Yes
+                </label>
+                <label class="option" data-link="nothanks">
+                  <button class="response"><i class="fa fa-circle-thin"></i><i class="fa fa-check-circle"></i></button>
+                  No
+                </label>
+              </section>
+            </article>
+            <article id="thanks" class="flow-question">
+              <header>
+                <p>Thanks! Mary has your information.</p>
+              </header>
+            </article>
+            <article id="nothanks" class="flow-question">
+              <header>
+                <p>Ok. We won't contact you. Thanks!</p>
+              </header>
+            </article>
+            <article id="no" class="flow-question">
+              <header>
+                <p>Thanks! Please leave your feedback in the comment section.</p>
+              </header>
+            </article>
+          </div>
+          <h3>Comments</h3>
+          <img src="comments.png" />
+      </section>
+      <section class="rail">
+        <img src="railtop.png" />
+        <img src="rail.png" />
+        <img src="rail2.png" />
+      </section>
+    </div>
+    <section class="footer">
+      The City Daily | 2015
+    </section>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script>
+  $('#first').show();
+  $('.option').click(function() {
+     var question = $(this).closest('article'),
+     next = $(this).attr('data-link'),
+     id = question.attr('id'),
+     value = $(this).find('input').val();
+
+
+    $(this).addClass('selected');
+    $(question).find('.option').css('pointer-events', 'none').addClass('disable');
+    $(question).find('.textarea').attr('readonly','readonly').addClass('disable');
+    $('#' + next).show();
+
+    if(next == 'email') {
+      $('#first').hide();
+      $('#yes').hide();
+    }
+
+  });
+  </script>
+</body>
+</html>
